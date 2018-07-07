@@ -1,5 +1,4 @@
-# System Function
-# Aborting RSession
+# System Function Aborting RSession
 
 sesAb <- function(){
   makeActiveBinding("refresh", function() { shell("Rgui"); q("no") }, .GlobalEnv)

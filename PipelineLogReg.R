@@ -6,7 +6,6 @@ sesAb <- function(){
   makeActiveBinding("refresh", function() { system("R"); q("no") }, .GlobalEnv)
   refresh}
  
-#---------------------------------------------------------------------------------
 library(data.table)
 library(dplyr)
 library(caret)
